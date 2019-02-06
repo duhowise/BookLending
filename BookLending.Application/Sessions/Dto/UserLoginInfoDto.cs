@@ -1,7 +1,6 @@
 ﻿using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using BookLending.Authorization.Users;
-using BookLending.Users;
 
 namespace BookLending.Sessions.Dto
 {

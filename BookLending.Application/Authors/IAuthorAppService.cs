@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using Abp.Application.Services;
-using BookLending.Models;
 
 namespace BookLending.Authors
 {

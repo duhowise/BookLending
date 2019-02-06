@@ -5,7 +5,6 @@ using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using BookLending.Authorization.Users;
 using BookLending.MultiTenancy;
-using BookLending.Users;
 using Microsoft.AspNet.Identity;
 
 namespace BookLending

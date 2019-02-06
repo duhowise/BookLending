@@ -234,6 +234,7 @@
     <Compile Include="Authorization\Accounts\Dto\TenantAvailabilityState.cs" />
     <Compile Include="Authorization\Accounts\IAccountAppService.cs" />
     <Compile Include="Books\UpdateBookInput.cs" />
+    <Compile Include="Categories\CategoryAppService.cs" />
     <Compile Include="Categories\CreateCategoryInput.cs" />
     <Compile Include="Categories\DeleteCategoryInput.cs" />
     <Compile Include="Categories\GetCategoryInput.cs" />

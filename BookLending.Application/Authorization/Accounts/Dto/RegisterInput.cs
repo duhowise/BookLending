@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using Abp.Auditing;
 using Abp.Authorization.Users;
-using BookLending.Users;
 using BookLending.Validation;
 using Abp.Extensions;
 using BookLending.Authorization.Users;
