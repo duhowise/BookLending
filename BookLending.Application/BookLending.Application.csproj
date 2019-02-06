@@ -211,6 +211,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authors\AuthorAppService.cs" />
+    <Compile Include="Authors\CreateAuthorInput.cs" />
+    <Compile Include="Authors\DeleteAuthorInput.cs" />
+    <Compile Include="Authors\GetAuthorInput.cs" />
+    <Compile Include="Authors\GetAuthorOutput.cs" />
+    <Compile Include="Authors\IAuthorAppService.cs" />
+    <Compile Include="Books\BookAppService.cs" />
+    <Compile Include="Books\CreateBookInput.cs" />
+    <Compile Include="Books\DeleteBookInput.cs" />
+    <Compile Include="Books\GetBookInput.cs" />
+    <Compile Include="Books\GetBookOutput.cs" />
+    <Compile Include="Books\IBookAppService.cs" />
+    <Compile Include="Authors\UpdateAuthorInput.cs" />
     <Compile Include="BookLendingApplicationModule.cs" />
     <Compile Include="BookLendingAppServiceBase.cs" />
     <Compile Include="Authorization\Accounts\AccountAppService.cs" />
@@ -220,6 +233,13 @@
     <Compile Include="Authorization\Accounts\Dto\RegisterOutput.cs" />
     <Compile Include="Authorization\Accounts\Dto\TenantAvailabilityState.cs" />
     <Compile Include="Authorization\Accounts\IAccountAppService.cs" />
+    <Compile Include="Books\UpdateBookInput.cs" />
+    <Compile Include="Categories\CreateCategoryInput.cs" />
+    <Compile Include="Categories\DeleteCategoryInput.cs" />
+    <Compile Include="Categories\GetCategoryInput.cs" />
+    <Compile Include="Categories\GetCategoryOutput.cs" />
+    <Compile Include="Categories\ICategoryAppService.cs" />
+    <Compile Include="Categories\UpdateCategoryInput.cs" />
     <Compile Include="Configuration\ConfigurationAppService.cs" />
     <Compile Include="Configuration\Dto\ChangeUiThemeInput.cs" />
     <Compile Include="Configuration\IConfigurationAppService.cs" />
