@@ -5,6 +5,10 @@ using Abp.AutoMapper;
 using Abp.Modules;
 using BookLending.Authorization.Roles;
 using BookLending.Authorization.Users;
+using BookLending.Authors;
+using BookLending.Books;
+using BookLending.Categories;
+using BookLending.Models;
 using BookLending.Roles.Dto;
 using BookLending.Users.Dto;
 
@@ -36,6 +40,28 @@ namespace BookLending
 
                 cfg.CreateMap<CreateUserDto, User>();
                 cfg.CreateMap<CreateUserDto, User>().ForMember(x => x.Roles, opt => opt.Ignore());
+
+
+
+                cfg.CreateMap<Author,GetAuthorInput>().ReverseMap();
+                cfg.CreateMap<Author,UpdateAuthorInput>().ReverseMap();
+                cfg.CreateMap<Author,GetAuthorOutput>().ReverseMap();
+                cfg.CreateMap<Author,CreateAuthorInput>().ReverseMap();
+
+
+
+                cfg.CreateMap<Book,GetBookInput>().ReverseMap();
+                cfg.CreateMap<Book,UpdateBookInput>().ReverseMap();
+                cfg.CreateMap<Book,GetBookOutput>().ReverseMap();
+                cfg.CreateMap<Book,CreateAuthorInput>().ReverseMap();
+
+
+
+
+                cfg.CreateMap<Category,GetCategoryInput>().ReverseMap();
+                cfg.CreateMap<Category, UpdateCategoryInput>().ReverseMap();
+                cfg.CreateMap<Category, GetCategoryOutput>().ReverseMap();
+                cfg.CreateMap<Category, CreateCategoryInput>().ReverseMap();
             });
         }
     }

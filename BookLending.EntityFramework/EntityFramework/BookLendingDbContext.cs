@@ -18,9 +18,13 @@ namespace BookLending.EntityFramework
          *   pass connection string name to base classes. ABP works either way.
          */
 
-        public virtual DbSet<Author> Authors { get; set; }
-        public virtual DbSet<Book> Books { get; set; }
-        public virtual DbSet<Category> Categories { get; set; }
+        public virtual IDbSet<Author> Authors { get; set; }
+        public virtual IDbSet<Book> Books { get; set; }
+        public virtual IDbSet<Category> Categories { get; set; }
+
+
+
+
         public BookLendingDbContext()
             : base("Default")
         {
